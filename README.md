@@ -1,5 +1,5 @@
 # OpticalFlow Video Processing 
-This application is a video processing tool that calculates the optical flow between consecutive frames of a video file. It uses the Farneback method to compute dense optical flow, and allows users to visualize the motion between frames using grayscale or HSV color-coded representations. The app is built using Streamlit for the user interface, OpenCV for video processing, and NumPy for array operations.
+This project provides an easy-to-use tool for visualizing optical flow in videos, using OpenCV and Streamlit. It calculates the motion between consecutive frames using the Farneback method for dense optical flow and allows users to visualize the motion with grayscale or HSV color-coded representations. The app features an intuitive interface for uploading video files, adjusting optical flow parameters like pyramid scaling, window size, and iteration count, and downloading the processed output. Designed for users interested in motion analysis, the tool simplifies complex video processing tasks without requiring advanced knowledge of computer vision techniques.
 
 ## Installation
 To run the application locally, follow these steps:
